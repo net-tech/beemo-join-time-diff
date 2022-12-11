@@ -7,11 +7,13 @@
 		"dev": "ts-node ./src/index.ts"
 	},
 	"dependencies": {
-		"@sapphire/stopwatch": "^1.5.0",
-		"@sapphire/time-utilities": "^1.7.8",
+		"@types/cli-progress": "^3.11.0",
+		"@types/ms": "^0.7.31",
 		"@types/node": "^18.11.13",
 		"@types/prompt": "^1.1.4",
 		"axios": "^1.1.3",
+		"cli-progress": "^3.11.2",
+		"ms": "^2.1.3",
 		"pino": "^8.7.0",
 		"pino-pretty": "^9.1.1",
 		"prompt": "^1.3.0"

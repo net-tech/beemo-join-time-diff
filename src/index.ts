@@ -1,7 +1,7 @@
 import prompt from "prompt"
 import { log } from "./services/logger"
 import TimeService from "./services/time"
-import { DurationFormatter } from "@sapphire/time-utilities"
+import ms from "ms"
 
 const schema = {
 	properties: {
@@ -38,10 +38,10 @@ prompt.get(schema, (err: any, result: { url: string }) => {
 						? `\n\n${result.zeros.count} times out of ${result.joinCount} were 0ms apart. (This happened ${result.zeros.chanceRounded}% of the time in this raid)\n\nThese are the indexes of the 0ms apart times: ${result.zeros.indexListString}.`
 						: ""
 
-				const averageTime = new DurationFormatter().format(parseInt(result.averageTime.averageRounded))
+				const averageTime = ms(result.averageTime.averageRounded)
 
 				log.info(
-					`Detected ${result.joinCount} joins. Average difference between join times rounded is ${averageTime} (${result.averageTime.averageRaw}ms).${zerosString}\n\nTook ${result.timeTaken}.`
+					`Detected ${result.joinCount} joins. Average difference between join times rounded is ${averageTime}ms (${result.averageTime.averageRaw}ms).${zerosString}.`
 				)
 			})
 			.catch((error) => {

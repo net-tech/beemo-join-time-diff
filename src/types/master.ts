@@ -1,3 +1,5 @@
+const logDomains = ["logs.beemo.gg", "archive.ayu.dev"]
+
 interface averageTime {
 	averageRaw: number
 	averageRounded: string
@@ -14,7 +16,6 @@ interface timeDifferenceResult {
 	averageTime: averageTime
 	zeros: zeros
 	joinCount: number
-	timeTaken: string
 }
 
-export { timeDifferenceResult }
+export { logDomains, timeDifferenceResult }
