@@ -29,10 +29,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
   integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
 
-"@types/prompt@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@types/prompt/-/prompt-1.1.4.tgz#d077cf77d074d8dc2710a4ead4fdaac8233003cb"
-  integrity sha512-FLMcf+ol+eUJALeIYWLjQl0hYw86G0PIg7D5+4jJHwr/wKI8p3R0u+oKLbyRkzCxb7e0pHixyCj7UgSv7I/TJQ==
+"@types/prompt@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@types/prompt/-/prompt-1.1.5.tgz#170f296d5535300c7d5f92dbcb473d188025866b"
+  integrity sha512-xvIqQ/DOwlRxVT/P47f85rJGIQLZ59XQnbRpCdSJi93FtaAFOScr6H7GhiaaLGi1jo8WfOy1rhkpjc2zPFXMoQ==
   dependencies:
     "@types/node" "*"
     "@types/revalidator" "*"
