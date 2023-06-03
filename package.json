@@ -9,7 +9,7 @@
 	"dependencies": {
 		"@types/cli-progress": "^3.11.0",
 		"@types/ms": "^0.7.31",
-		"@types/node": "^18.16.3",
+		"@types/node": "^18.16.16",
 		"@types/prompt": "^1.1.5",
 		"axios": "^1.4.0",
 		"cli-progress": "^3.12.0",
