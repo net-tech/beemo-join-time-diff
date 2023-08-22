@@ -1,14 +1,10 @@
-# Beemo Time Difference Calculator - Unofficial
+# Beemo Join Difference Calculator - Unofficial
 
 This small app allows you to see the time between joins of account in a [Beemo](https://beemo.gg) raid log. An example output when using the CLI would be
 ```
-Detected 940 joins. Average difference between join times rounded is 17 seconds (17762.668085106383ms).
+Analyzed 14827 joins. Average difference between join times is 66ms. 
 
-22 times out of 940 were 0ms apart. (This happened 0.02% of the time in this raid)
-
-These are the indexes of the 0ms apart times: 100, 109, 220, 233, 237, 242, 249, 448, 459, 460 and 12 more.
-
-Took 300.43ms.
+573 joins out of 14826 happened at the same time (0.039% of all)
 ```
 
-While in general this tool offers no real practical use, it was fun to build an can provide interesting statistics.
+While in general this tool offers no real practical use, it was fun to build and can provide interesting statistics.
