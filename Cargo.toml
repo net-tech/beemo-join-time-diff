@@ -11,4 +11,4 @@ chrono = "0.4.31"
 humantime = "2.1.0"
 indicatif = "0.17.6"
 regex = "1.9.6"
-reqwest = { version = "0.11.20", features = ["blocking"] }
+reqwest = { version = "0.11.22", features = ["blocking"] }
