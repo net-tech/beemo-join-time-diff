@@ -1,0 +1,24 @@
+# Compiled files
+target/
+
+# Output of the rust-doc tool
+doc/
+
+# Dependency directory
+.deps/
+
+# Backup files created by the rustfmt tool
+**/*.rs.bk
+
+# Environment variable override files
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
