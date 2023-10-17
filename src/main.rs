@@ -57,13 +57,11 @@ fn main() -> Result<()> {
     };
 
     for (idx, join_date) in matches.iter().enumerate() {
-        // Add the date to add a valid DateTime.
         let mut date: DateTime<Utc> = DateTime::parse_from_str(
             &format!("{}T{}", log_date, join_date),
             "%Y/%m/%dT%H:%M:%S%.3f%z",
         )
         .with_context(|| format!("Could not parse date `{}T{}`", log_date, join_date))?
-            // Convert to UTC.
         .try_into()
         .with_context(|| format!("Could not parse date `{}T{}`", log_date, join_date))?;
 
