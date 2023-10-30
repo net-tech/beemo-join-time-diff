@@ -16,7 +16,7 @@ reqwest = { version = "0.11.22", features = ["blocking"] }
 [dev-dependencies]
 criterion = "0.5.1"
 beemo_join_time_diff = { path = "." }
-codspeed-criterion-compat = "2.2.0"
+codspeed-criterion-compat = "2.3.1"
 
 [[bench]]
 name = "parsing"
