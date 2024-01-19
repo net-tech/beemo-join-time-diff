@@ -88,7 +88,7 @@ checksum = "9ba43ea6f343b788c8764558649e08df62f86c6ef251fdaeb1ffd010a9ae50a2"
 
 [[package]]
 name = "beemo_join_time_diff"
-version = "4.1.0"
+version = "4.1.1"
 dependencies = [
  "anyhow",
  "beemo_join_time_diff",
