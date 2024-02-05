@@ -11,7 +11,7 @@ chrono = "0.4.33"
 criterion = "0.5.1"
 humantime = "2.1.0"
 regex = "1.10.3"
-reqwest = { version = "0.11.23", features = ["blocking"] }
+reqwest = { version = "0.11.24", features = ["blocking"] }
 
 [dev-dependencies]
 criterion = "0.5.1"
