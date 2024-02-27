@@ -1,4 +1,6 @@
 # Beemo Log Analyzer
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnet-tech%2Fbeemo-join-time-diff.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnet-tech%2Fbeemo-join-time-diff?ref=badge_shield)
+
 
 Welcome to the Beemo Log Analyzer! This Rust application processes and analyzes Beemo logs, providing insightful data regarding join dates and times.
 
@@ -51,3 +53,6 @@ Feel free to fork the project, open a PR, or submit issues with feature requests
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnet-tech%2Fbeemo-join-time-diff.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnet-tech%2Fbeemo-join-time-diff?ref=badge_large)
